@@ -67,6 +67,7 @@
 		"start": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
+		"deploy": "gh-pages -d dist",
 		"lint": "eslint --fix --ext src/**/*.{js,ts,tsx}"
 	},
 	"devDependencies": {
@@ -96,6 +97,7 @@
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-sort-keys-fix": "^1.1.2",
 		"eslint-plugin-typescript": "^0.14.0",
+		"gh-pages": "^5.0.0",
 		"https": "^1.0.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.1.1",

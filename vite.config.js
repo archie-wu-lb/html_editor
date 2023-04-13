@@ -15,6 +15,7 @@ export default ({ mode }) => {
 	process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
 
 	return defineConfig({
+		base: '/',
 		define: {
 			__APP_VERSION__: JSON.stringify(pkg.version),
 		},
