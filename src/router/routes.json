@@ -1,8 +1,8 @@
 [
 	{
-		"path": "",
+		"path": "html_editor",
 		"element": "layout/Basic",
-		"redirect": "/home",
+		"redirect": "/html_editor/home",
 		"children": [
 			{
 				"title": "title.home",

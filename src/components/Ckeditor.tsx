@@ -509,7 +509,7 @@ const Ckeditor = ({ setPreView }: any) => {
 			<CKEditor
 				editor={ClassicEditor}
 				config={editorConfiguration}
-				data="<p>Hello from CKEditor 5!</p>"
+				data="<p>輸入</p>"
 				onReady={editor => {
 					const data = editor.getData();
 					setPreView(data);
