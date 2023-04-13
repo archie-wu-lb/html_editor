@@ -89,7 +89,6 @@ const editorConfiguration = {
 	},
 	fontColor: {
 		columns: 10,
-		documentColors: 200,
 		colors: [
 			{ color: 'hsl(6, 54%, 95%)', label: ' ' },
 			{ color: 'hsl(6, 54%, 89%)', label: ' ' },
@@ -291,11 +290,11 @@ const editorConfiguration = {
 			{ color: 'hsl(210, 29%, 18%)', label: ' ' },
 			{ color: 'hsl(210, 29%, 16%)', label: ' ' },
 			{ color: 'hsl(210, 29%, 13%)', label: ' ' },
+			{ color: '#FF8600', label: '橘色' },
 		],
 	},
 	fontBackgroundColor: {
 		columns: 10,
-		documentColors: 200,
 		colors: [
 			{ color: 'hsl(6, 54%, 95%)', label: ' ' },
 			{ color: 'hsl(6, 54%, 89%)', label: ' ' },
@@ -497,6 +496,7 @@ const editorConfiguration = {
 			{ color: 'hsl(210, 29%, 18%)', label: ' ' },
 			{ color: 'hsl(210, 29%, 16%)', label: ' ' },
 			{ color: 'hsl(210, 29%, 13%)', label: ' ' },
+			{ color: '#FF8600', label: '橘色' },
 		],
 	},
 
